@@ -1,0 +1,40 @@
+h1{
+  color: #CE49BF;
+  text-align: center;
+  font-size:70px;
+}
+marquee{
+  font-size: 36px;
+  color: #F190B7;
+}
+a{
+  color: #F190B7;
+  font-size: 30px;
+}
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  left:39%;
+}
+.image {
+  display: block;
+  width: 100%;
+  height:auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color:white;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
